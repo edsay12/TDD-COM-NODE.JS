@@ -1,1 +1,2 @@
-## Iniciando testes com node.js
+"pretest":"sequelize db:migrate",
+"posttest":"sequelize db:migrate:undo:all",
