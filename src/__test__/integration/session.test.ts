@@ -3,7 +3,6 @@ import request from 'supertest';
 import app from '../../app'
 import truncateUser from "../utils/truncate";
 
-
 describe('example', () => {
     beforeEach(async ()=>{
       await truncateUser()
